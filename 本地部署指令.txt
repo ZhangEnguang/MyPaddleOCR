@@ -1,0 +1,9 @@
+本地部署指令
+pip3 install opencv-python==4.5.5.64
+pip3 install paddleocr
+pip3 install paddlepaddle
+pip3 install Flask
+pip3 install DateTime
+
+
+paddleocr --image_dir .\doc\imgs\1.jpg --use_gpu false --use_angle_cls false
